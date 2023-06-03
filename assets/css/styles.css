@@ -23,14 +23,47 @@
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
 }
-@media screen and (min-width: 768px){
-    :root{
-        --big-font-size: 10.5rem;
-        --h2-font-size: 2rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
-    }
+@media (max-width: 767px) {
+  .home__container {
+    row-gap: 3rem;
+  }
+
+  .home__title {
+    font-size: 2rem;
+  }
+
+  .home__scroll-link {
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+
+  .home__img {
+    transform: none;
+    width: 200px;
+  }
+
+  .about__container {
+    row-gap: 1rem;
+  }
+
+  .about__img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about__img img {
+    width: 200px;
+  }
+
+  .about__subtitle {
+    font-size: 2rem;
+  }
+
+  .about__social-icon {
+    font-size: 1.2rem;
+  }
 }
+
 
 /*===== Margenes =====*/
 :root{
